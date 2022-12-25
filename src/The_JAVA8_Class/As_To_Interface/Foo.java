@@ -2,6 +2,12 @@ package The_JAVA8_Class.As_To_Interface;
 
 public interface Foo {
     String getName = "print_good";
+    public static void printAnything(){
+        System.out.println("Foo");
+    }
+    default void printAnything2(){
+        printAnything();
+    }
     void printName();
     default String getName(){
         return getName;

@@ -44,5 +44,8 @@ public class AsToApp implements Foo{
         Foo foo3 = new DefaultFoo("Seong_Deok");
         foo3.printName();
         foo3.printNameUpperCase();
+
+        foo.printAnything2();
+        Foo.printAnything();
     }
 }
