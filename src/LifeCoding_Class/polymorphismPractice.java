@@ -1,5 +1,7 @@
 package LifeCoding_Class;
 
+import LifeCoding_Class.Collection_FrameWork.MapPractice;
+
 class A{
     int a = 10;
     public String x(){
