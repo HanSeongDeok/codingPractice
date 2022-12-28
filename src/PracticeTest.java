@@ -18,7 +18,7 @@ public class PracticeTest {
     public static void main(String[] args) {
         Stream<Integer> stream = IntStream.range(1,10).boxed();
 
-        ArrayList<String> list = new ArrayList(Arrays.asList("a","b","c"));
+        ArrayList<String> list = new ArrayList<String>(Arrays.asList("a","b","c"));
                 list.stream()
                 .filter("a"::equals)
                 .forEach(System.out::println);
