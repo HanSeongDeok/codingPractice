@@ -1,6 +1,6 @@
 package The_JAVA8_Class.FuntionInterFace;
 
-public class Java_practice1 {
+public class Java_practice1{
     public static void main(String[] args) {
         // 익명 내부 클래스 annoymous inner Class
         RunSomthing runSomthing = new RunSomthing() {
