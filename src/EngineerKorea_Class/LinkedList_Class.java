@@ -1,9 +1,8 @@
-import java.util.ArrayList;
-import java.util.List;
+package EngineerKorea_Class;
 
 public class LinkedList_Class {
     Node end;
-    private class Node<T>{
+    private static class Node<T>{
         T data;
         Node next;
         public Node(T data){
