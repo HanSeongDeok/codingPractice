@@ -1,3 +1,5 @@
+package EngineerKorea_Class;
+
 class TEST <T> {
     T data;
     TEST next = null;
