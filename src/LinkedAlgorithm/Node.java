@@ -44,5 +44,4 @@ public class Node<T> {
             System.out.println("[" + printNode + "]");
         }
     }
-
 }

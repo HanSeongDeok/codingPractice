@@ -55,7 +55,7 @@ public class LinkedListAdd extends Node{
         testAdd.addLast(1);
         testAdd.addFirst(6);
         testAdd.addFirst(7);
-        testAdd.addNode(100, 2);
+        testAdd.addNode(100, 3);
         retrieve();
       /*  System.out.println(testRemove.removeFirst());
         System.out.println("size : " + nodeSize);
@@ -75,16 +75,5 @@ public class LinkedListAdd extends Node{
         System.out.println(iterator.next());
         System.out.println(iterator.next());
         System.out.println(iterator.next());
-        System.out.println(iterator.next());
-        /*while(iterator.hasNext()){
-            System.out.println(iterator.next());
-        }*/
-        LinkedListIterator iterator2 = new LinkedListIterator();
-        while(iterator2.hasNext()){
-            if(100 == (int)iterator2.next()){
-                iterator2.removeNode();
-            }
-        }
-        retrieve();
     }
 }
