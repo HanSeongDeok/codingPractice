@@ -1,4 +1,4 @@
-package ThreadPractice;
+package ThreadPractice.BeepPractice;
 
 import java.awt.*;
 
